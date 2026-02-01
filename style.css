@@ -21,7 +21,7 @@ body {
   /* Background image + soft overlay */
   background:
     linear-gradient(135deg, rgba(0,0,0,0.10), rgba(0,0,0,0.05)),
-    url("assets/background.jpg");
+    url("background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,13 +40,6 @@ body {
   animation: fadeIn 1.1s ease-out;
 }
 
-.logo {
-  width: min(220px, 60vw);
-  height: auto;
-  margin-bottom: 18px;
-  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.15));
-}
-
 h1 {
   margin: 0 0 10px;
   font-size: clamp(20px, 3.2vw, 30px);
@@ -55,12 +48,8 @@ h1 {
 
 p {
   margin: 0;
-  font-size: clamp(14px, 2.2vw, 16px);
+  font-size: clamp(14px, 2.2vw, 16px подтверждения кода (???) );
   color: var(--muted);
-}
-
-.contact {
-  margin-top: 14px;
 }
 
 a {
